@@ -6,7 +6,12 @@ namespace ConsoleApp13
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NameParams np = new NameParams();
+            int x = 1;
+            int y = 3;
+            np.TwoParams(x, y);
+            np.TwoParams(x: x, y: y);
+            Console.ReadLine();
         }
     }
 }
